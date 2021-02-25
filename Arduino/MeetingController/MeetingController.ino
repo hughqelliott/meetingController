@@ -15,7 +15,7 @@ const int cameraPin = 5;
 const int zoomIndPin = 11;
 const int meetIndPin = 10; 
 const int zoomPin = 9;
-const int meetPin = 8;
+//const int meetPin = 8;
 
 int windowState = 0; 
 int muteState = 0; 
@@ -26,7 +26,7 @@ int prevCamState = 1;
 int zoomState = 0; 
 int meetState = 0; 
 int prevZoomState = 1;
-int prevMeetState = 1;
+//int prevMeetState = 1;
 
 boolean windowToggle = false;
 boolean muteToggle = false;
@@ -48,16 +48,17 @@ void setup() {
   //Keyboard.begin();
   Serial.begin(9600);
     digitalWrite(zoomIndPin,digitalRead(zoomPin));
-    digitalWrite(meetIndPin,digitalRead(meetPin));
+    //digitalWrite(meetIndPin,digitalRead(meetPin));
 }
 void loop() {
   windowState = digitalRead(windowPin);
   muteState = digitalRead(mutePin);
   cameraState = digitalRead(cameraPin);
   zoomState = digitalRead(zoomPin);
-  meetState = digitalRead(meetPin);
-  digitalWrite(zoomIndPin,digitalRead(zoomPin));
-  digitalWrite(meetIndPin,digitalRead(meetPin));
+  //meetState = digitalRead(meetPin);
+  
+  digitalWrite(zoomIndPin,zoomState);
+  digitalWrite(meetIndPin,!zoomState);
   if(windowState == HIGH){
     windowToggle = true;
   }else{
