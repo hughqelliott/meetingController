@@ -5,15 +5,16 @@ Designed and coded for [Thinkingbox](https://thinkingbox.com)
 Two versions exist *Toggle*, *Non-Toggle*
 
 ### Non-Toggle
-...Uses Arduino Micro as HID Keyboard *note: Any keyboard capable microntroller will work*..
-...Three basic buttons or switches, plus three 10K ohm resistors complete this circuit..
+   Uses Arduino Micro as HID Keyboard *note: Any keyboard capable microntroller will work*  
+   Three basic buttons or switches, plus three 10K ohm resistors complete this circuit  
+   
 #### Toggle
-...Uses Arduino Micro as HID Keyboard *note: Any keyboard capable microntroller will work*..
-...Three basic buttons or switches..
-...One Toggle switch..
-...Four 10K ohm resistors..
-...Two LEDs..
-...Two 330 ohn resistors..
+   Uses Arduino Micro as HID Keyboard *note: Any keyboard capable microntroller will work*  
+   Three basic buttons or switches  
+   One Toggle switch  
+   Four 10K ohm resistors  
+   Two LEDs  
+   Two 330 ohn resistors  
 
 
 Design: **Hugh Elliott**
