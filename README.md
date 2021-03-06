@@ -15,8 +15,10 @@ Two versions exist *Toggle*, *Non-Toggle*
    One Toggle switch  
    Four 10K ohm resistors  
    Two LEDs  
-   Two 330 ohm resistors  
-
+   Two 330 ohm resistors 
+    
+### Bill of Materials
+Found in the [wiki](https://github.com/hughqelliott/meetingController/wiki/Bill-of-Materials)
 
 Design: **Hugh Elliott**
 
