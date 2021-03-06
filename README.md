@@ -1,5 +1,7 @@
 # Thinkingbox meetingController
 
+![](https://hughqelliott.com/ThinkingBox/imgs/MeetingControllerIcon.jpg)
+
 Arduino-based arcade button controller for basic video conferencing functionality.
 Designed and coded for [Thinkingbox](https://thinkingbox.com)
 Two versions exist *Toggle*, *Non-Toggle*
@@ -16,7 +18,7 @@ Two versions exist *Toggle*, *Non-Toggle*
    Four 10K ohm resistors  
    Two LEDs  
    Two 330 ohm resistors 
-    
+
 ### Bill of Materials
 Found in the [wiki](https://github.com/hughqelliott/meetingController/wiki/Bill-of-Materials)
 
