@@ -6,15 +6,16 @@ Two versions exist *Toggle*, *Non-Toggle*
 
 ### Non-Toggle
    Uses Arduino Micro as HID Keyboard *note: Any keyboard capable microntroller will work*  
-   Three basic buttons or switches, plus three 10K ohm resistors complete this circuit  
-   
+   Three basic buttons or switches  
+   Three 10K ohm resistors  
+
 #### Toggle
    Uses Arduino Micro as HID Keyboard *note: Any keyboard capable microntroller will work*  
    Three basic buttons or switches  
    One Toggle switch  
    Four 10K ohm resistors  
    Two LEDs  
-   Two 330 ohn resistors  
+   Two 330 ohm resistors  
 
 
 Design: **Hugh Elliott**
