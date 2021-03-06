@@ -4,10 +4,10 @@ Arduino-based arcade button controller for basic video conferencing functionalit
 Designed and coded for [Thinkingbox](https://thinkingbox.com)
 Two versions exist *Toggle*, *Non-Toggle*
 
-###Non-Toggle
+### Non-Toggle
 ...Uses Arduino Micro as HID Keyboard *note: Any keyboard capable microntroller will work*..
 ...Three basic buttons or switches, plus three 10K ohm resistors complete this circuit..
-####Toggle
+#### Toggle
 ...Uses Arduino Micro as HID Keyboard *note: Any keyboard capable microntroller will work*..
 ...Three basic buttons or switches..
 ...One Toggle switch..
@@ -18,7 +18,7 @@ Two versions exist *Toggle*, *Non-Toggle*
 
 Design: **Hugh Elliott**
 
-###Wish List
+### Wish List
 RaspberryPi version
 Feather (BLE) version
 
