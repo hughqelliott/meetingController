@@ -33,7 +33,7 @@ void setup() {
   digitalWrite(windowPin,LOW);
   digitalWrite(mutePin,LOW);
   digitalWrite(cameraPin,LOW);
-  //Keyboard.begin();
+  Keyboard.begin();
   Serial.begin(9600);
 }
 void loop() {
