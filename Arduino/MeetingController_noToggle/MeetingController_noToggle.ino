@@ -14,12 +14,11 @@ const int mutePin = 6;
 const int cameraPin = 5; 
 
 int windowState = 0; 
-int muteState = 0; 
+int muteState = 0;
 int cameraState = 0; 
 int prevWinState = 1;
 int prevMuteState = 1;
 int prevCamState = 1;
-
 boolean windowToggle = false;
 boolean muteToggle = false;
 boolean cameraToggle = false;
@@ -34,7 +33,7 @@ void setup() {
   digitalWrite(mutePin,LOW);
   digitalWrite(cameraPin,LOW);
   Keyboard.begin();
-  Serial.begin(9600);
+  //Serial.begin(9600);
 }
 void loop() {
   windowState = digitalRead(windowPin);
@@ -59,7 +58,6 @@ void loop() {
       Keyboard.press(KEY_LEFT_GUI);
       delay(100);
       Keyboard.press('d');
-      delay(100);
       Keyboard.releaseAll();
       muteToggle = false;
     }
